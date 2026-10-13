@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "QRAF toolkit: CBOM-Lite and QESM"
+authors:
+  - family-names: "Ogundola"
+    given-names: "Timothy Olatunji"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add once registered
+version: "0.1.0"
+date-released: "YYYY-MM-DD"   # set on the day you tag v0.1.0
+license: "Apache-2.0"
+repository-code: "https://github.com/<your-account>/qraf"
+# doi: "10.5281/zenodo.XXXXXXX"   # add after the Zenodo release

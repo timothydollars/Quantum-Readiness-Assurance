@@ -1,0 +1,97 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:5fdcdbe3-e968-442c-ac81-c0f31a67f0ba",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T21:52:14.416976+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "CBOM-Lite",
+          "version": "0.1.0"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "vendor-1",
+      "name": "ECDH-X25519",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "parameterSetIdentifier": "X25519",
+          "nistQuantumSecurityLevel": 0
+        }
+      },
+      "properties": [
+        {
+          "name": "qraf:evidenceLevel",
+          "value": "vendor-attested"
+        },
+        {
+          "name": "qraf:source",
+          "value": "vendor_csv"
+        },
+        {
+          "name": "qraf:location",
+          "value": "Example Core Processor (fictional) / Core banking file transfer"
+        },
+        {
+          "name": "qraf:category",
+          "value": "quantum-vulnerable"
+        },
+        {
+          "name": "qraf:classicalWeak",
+          "value": "false"
+        },
+        {
+          "name": "qraf:vendor",
+          "value": "Example Core Processor (fictional)"
+        }
+      ]
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "vendor-2",
+      "name": "RSA-2048",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "parameterSetIdentifier": "2048",
+          "nistQuantumSecurityLevel": 0
+        }
+      },
+      "properties": [
+        {
+          "name": "qraf:evidenceLevel",
+          "value": "vendor-attested"
+        },
+        {
+          "name": "qraf:source",
+          "value": "vendor_csv"
+        },
+        {
+          "name": "qraf:location",
+          "value": "Example Card Processor (fictional) / Card authorization API"
+        },
+        {
+          "name": "qraf:category",
+          "value": "quantum-vulnerable"
+        },
+        {
+          "name": "qraf:classicalWeak",
+          "value": "false"
+        },
+        {
+          "name": "qraf:vendor",
+          "value": "Example Card Processor (fictional)"
+        }
+      ]
+    }
+  ],
+  "dependencies": []
+}

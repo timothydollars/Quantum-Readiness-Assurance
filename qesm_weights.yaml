@@ -1,0 +1,12 @@
+# QESM default configuration (Exhibit E-1, Section 6).
+# These are starting values, to be calibrated through the Year 1 expert review.
+weights:
+  timeline: 0.35     # wT
+  exposure: 0.25     # wE
+  criticality: 0.25  # wC
+  dependency: 0.15   # wD
+default_horizon_years: 9   # Z; 2035 is a planning assumption, not a prediction
+sensitivity_horizons: [4, 9, 14]
+tier_thresholds:
+  tier1_min: 4.0
+  tier2_min: 3.0

@@ -1,0 +1,5 @@
+asset_id,description,x_shelf_life_years,y_migration_years,e_exposure,c_criticality,d_dependency,gap,T,P,tier
+sftp-core-ach,Core-processor SFTP link carrying ACH files (key exchange),5.0,4.0,3,5,5,0.0,5,4.5,1
+tls-online-banking,Online banking TLS gateway (key exchange),5.0,2.0,5,5,2,-2.0,4,4.2,1
+backup-key-wrap,Key-wrapping of archived backups,10.0,2.0,2,4,3,3.0,5,3.7,2
+internal-ca,Internal certificate authority for staff logins (signatures),1.0,3.0,2,4,2,-5.0,2,2.5,3

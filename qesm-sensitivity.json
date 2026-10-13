@@ -1,0 +1,121 @@
+{
+  "horizon": {
+    "tiers": {
+      "sftp-core-ach": {
+        "4": 1,
+        "9": 1,
+        "14": 2
+      },
+      "tls-online-banking": {
+        "4": 1,
+        "9": 1,
+        "14": 2
+      },
+      "backup-key-wrap": {
+        "4": 2,
+        "9": 2,
+        "14": 2
+      },
+      "internal-ca": {
+        "4": 2,
+        "9": 3,
+        "14": 3
+      }
+    },
+    "changes_vs_default": {
+      "4": 1,
+      "9": 0,
+      "14": 2
+    }
+  },
+  "weights": [
+    {
+      "weight": "timeline",
+      "direction": -1,
+      "weights": {
+        "timeline": 0.3157894736842105,
+        "exposure": 0.2631578947368421,
+        "criticality": 0.2631578947368421,
+        "dependency": 0.15789473684210525
+      },
+      "tier_changes": 0
+    },
+    {
+      "weight": "timeline",
+      "direction": 1,
+      "weights": {
+        "timeline": 0.38095238095238093,
+        "exposure": 0.23809523809523808,
+        "criticality": 0.23809523809523808,
+        "dependency": 0.14285714285714285
+      },
+      "tier_changes": 0
+    },
+    {
+      "weight": "exposure",
+      "direction": -1,
+      "weights": {
+        "timeline": 0.3684210526315789,
+        "exposure": 0.2105263157894737,
+        "criticality": 0.2631578947368421,
+        "dependency": 0.15789473684210525
+      },
+      "tier_changes": 0
+    },
+    {
+      "weight": "exposure",
+      "direction": 1,
+      "weights": {
+        "timeline": 0.3333333333333333,
+        "exposure": 0.2857142857142857,
+        "criticality": 0.23809523809523808,
+        "dependency": 0.14285714285714285
+      },
+      "tier_changes": 0
+    },
+    {
+      "weight": "criticality",
+      "direction": -1,
+      "weights": {
+        "timeline": 0.3684210526315789,
+        "exposure": 0.2631578947368421,
+        "criticality": 0.2105263157894737,
+        "dependency": 0.15789473684210525
+      },
+      "tier_changes": 0
+    },
+    {
+      "weight": "criticality",
+      "direction": 1,
+      "weights": {
+        "timeline": 0.3333333333333333,
+        "exposure": 0.23809523809523808,
+        "criticality": 0.2857142857142857,
+        "dependency": 0.14285714285714285
+      },
+      "tier_changes": 0
+    },
+    {
+      "weight": "dependency",
+      "direction": -1,
+      "weights": {
+        "timeline": 0.3684210526315789,
+        "exposure": 0.2631578947368421,
+        "criticality": 0.2631578947368421,
+        "dependency": 0.10526315789473684
+      },
+      "tier_changes": 0
+    },
+    {
+      "weight": "dependency",
+      "direction": 1,
+      "weights": {
+        "timeline": 0.3333333333333333,
+        "exposure": 0.23809523809523808,
+        "criticality": 0.23809523809523808,
+        "dependency": 0.19047619047619047
+      },
+      "tier_changes": 0
+    }
+  ]
+}
